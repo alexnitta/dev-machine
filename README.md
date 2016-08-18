@@ -5,7 +5,7 @@ How I like to set up my computer for software development
 
 [Sublime Text 3] (https://www.sublimetext.com/3)
 
-[iTerm 2] (https://www.iterm2.com/)
+[iTerm 2] (https://www.iterm2.com/) - Set preferences: Profiles / Default / Colors / Color Presets... Pastel (Dark Background)
 
 ##Command Line Utilities
 
