@@ -5,6 +5,12 @@ How I like to set up my computer for software development
 
 [Sublime Text 3] (https://www.sublimetext.com/3)
 
+Install [Package Control] (https://packagecontrol.io/installation) for Sublime
+
+Use Package Control to install Charcoal theme
+
+Set Sublime preferences by copying from this repo at `config/preferences-sublime-settings`, then in Sublime go to Preferences / Settings - User, paste text and save file
+
 [iTerm 2] (https://www.iterm2.com/) - Set preferences: Profiles / Default / Colors / Color Presets... Pastel (Dark Background)
 
 [XCode] (https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12)
