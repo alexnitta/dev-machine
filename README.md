@@ -9,9 +9,17 @@ How I like to set up my computer for software development
 
 ##Command Line Utilities
 
-Homebrew `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+Homebrew `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-Python `brew install python libjpeg`
-`brew link python`
+Python `$ brew install python libjpeg`
+`$ brew link python`
 
 ##Config Files
+
+###Bash Profile
+
+`$ cd ~` `$ touch .bash_profile`
+
+Copy raw text from this repo at: `config/dot-bash_profile`
+
+`$ nano .bash_profile` `Command-V` `Ctrl-x` `Enter`
