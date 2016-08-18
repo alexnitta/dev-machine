@@ -22,6 +22,10 @@ How I like to set up my computer for software development
 
 ##Command Line Utilities
 * [Git] (https://git-scm.com/download/mac)
+  * `$ git config --global user.name "Your Name"`
+  * `$ git config --global user.email "your_email@whatever.com"`
+  * `git config --global core.autocrlf input`
+  * `git config --global core.safecrlf true`
 * Homebrew 
   * `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 * Node 
