@@ -11,6 +11,8 @@ How I like to set up my computer for software development
 
 ##Command Line Utilities
 
+[Git] (https://git-scm.com/download/mac)
+
 Homebrew `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 Node `brew install node`
@@ -26,6 +28,8 @@ Less `$ npm install less less-plugin-clean-css -g`
 Tmux `$ brew install tmux`
 
 n `$ npm install -g n`
+
+virtualenv `pip install virtualenv`
 
 ##Config Files
 
