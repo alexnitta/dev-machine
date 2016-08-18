@@ -9,9 +9,9 @@ How I like to set up my computer for software development
 
 ##Command Line Utilities
 
-Homebrew `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)`
+Homebrew `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-Pyton `brew install python libjpeg`
+Python `brew install python libjpeg`
 `brew link python`
 
 ##Config Files
