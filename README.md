@@ -53,3 +53,13 @@ Copy raw text from this repo at: `config/dot-bash_profile`
 
 ###Set up `subl` command
 `$ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
+
+###Set up SSH key for GitHub
+`$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"` (use a secure passphrase)
+
+`eval "$(ssh-agent -s)"`
+
+`$ ssh-add ~/.ssh/id_rsa`
+
+[Add SSH Key to your GitHub account] (https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+
