@@ -13,12 +13,19 @@ How I like to set up my computer for software development
 
 Homebrew `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-
 Node `brew install node`
 
-
 Python `$ brew install python libjpeg`
-`export PATH=/usr/local/bin:/usr/local/share/python:$PATH`
+`$ export PATH=/usr/local/bin:/usr/local/share/python:$PATH`
+
+Ruby `$ brew install ruby`
+`$ gem install nokogiri premailer`
+
+Less `$ npm install less less-plugin-clean-css -g`
+
+Tmux `$ brew install tmux`
+
+n `$ npm install -g n`
 
 ##Config Files
 
@@ -33,6 +40,3 @@ Copy raw text from this repo at: `config/dot-bash_profile`
 `Command-V` `Ctrl-x` `Enter` 
 
 `$ source .bash_profile`
-
-###Set up `subl` command
- `$ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
