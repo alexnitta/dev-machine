@@ -50,6 +50,5 @@ How I like to set up my computer for software development
   * `$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"` (use a secure passphrase)
   * `eval "$(ssh-agent -s)"`
   * `$ ssh-add ~/.ssh/id_rsa`
-
-* [Add SSH Key to your GitHub account] (https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+  * [Add SSH Key to your GitHub account] (https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
