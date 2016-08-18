@@ -40,3 +40,6 @@ Copy raw text from this repo at: `config/dot-bash_profile`
 `Command-V` `Ctrl-x` `Enter` 
 
 `$ source .bash_profile`
+
+###Set up `subl` command
+`$ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
