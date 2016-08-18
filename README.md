@@ -7,12 +7,18 @@ How I like to set up my computer for software development
 
 [iTerm 2] (https://www.iterm2.com/) - Set preferences: Profiles / Default / Colors / Color Presets... Pastel (Dark Background)
 
+[XCode] (https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12)
+
 ##Command Line Utilities
 
 Homebrew `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
+
+Node `brew install node`
+
+
 Python `$ brew install python libjpeg`
-`$ brew link python`
+`export PATH=/usr/local/bin:/usr/local/share/python:$PATH`
 
 ##Config Files
 
