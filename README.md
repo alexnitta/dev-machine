@@ -22,4 +22,8 @@ Python `$ brew install python libjpeg`
 
 Copy raw text from this repo at: `config/dot-bash_profile`
 
-`$ nano .bash_profile` `Command-V` `Ctrl-x` `Enter`
+`$ nano .bash_profile` 
+
+`Command-V` `Ctrl-x` `Enter` 
+
+`$ source .bash_profile`
