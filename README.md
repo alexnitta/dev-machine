@@ -33,9 +33,9 @@ How I like to set up my computer for software development
   * `$ npm install less less-plugin-clean-css -g`
 * Tmux 
   * `$ brew install tmux`
-* n 
-  * `$ npm install -g n`
-*virtualenv 
+* NVM 
+  * `$ npm install -g nvm`
+* virtualenv 
   * `pip install virtualenv`
 
 ##Config Files
