@@ -15,7 +15,8 @@ How I like to set up my computer for software development
 * [XCode] (https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12)
 
 ##Command Line Utilities
-* [Git] (https://git-scm.com/download/mac)
+* Git  
+  * Use the GUI to [install Git] (https://git-scm.com/download/mac)
   * Copy from this repo at `config/dot-gitconfig`. Open `~/.gitconfig` and paste the text. Replace `Your Name` and `your@email.com`, close and save the file.
 * Homebrew 
   * `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
