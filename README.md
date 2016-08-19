@@ -24,8 +24,9 @@ How I like to set up my computer for software development
 * [Git] (https://git-scm.com/download/mac)
   * `$ git config --global user.name "Your Name"`
   * `$ git config --global user.email "your_email@whatever.com"`
-  * `git config --global core.autocrlf input`
-  * `git config --global core.safecrlf true`
+  * `$ git config --global core.autocrlf input`
+  * `$ git config --global core.safecrlf true`
+  * After setting up the `subl` command below: `$ git config --global core.editor "subl -n -w"`
 * Homebrew 
   * `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 * Node 
