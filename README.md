@@ -7,8 +7,9 @@ How I like to set up my computer for software development
   * Install [Package Control] (https://packagecontrol.io/installation) for Sublime
   * Use Package Control to install the following:
     1. Charcoal theme
-    2. eslint
-    3. babel
+    2. SublimeLinter
+    3. SublimeLinter-contrib-eslint 
+    4. babel
   * Set Sublime preferences by copying from this repo at `config/preferences-sublime-settings`, then in Sublime go to Preferences / Settings - User, paste text and save file
   * After you have installed Node (see below), create a build system in Sublime for Node. Copy from this repo at `config/node.sublime-build`, then in Sublime go to Tools > Build System > New Build System, delete the default code, and paste the text. Close the file, and when asked whether you want to save, click Save. Rename the file to `Node.sublime-build`.
 * [iTerm 2] (https://www.iterm2.com/) - Set preferences: Profiles > Default > Colors > Color Presets... Pastel (Dark Background)
