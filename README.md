@@ -2,7 +2,9 @@
 How I like to set up my computer for software development
 
 ##Mac OS Applications
-
+* [Chrome] (https://www.google.com/chrome/browser/desktop/)
+  * [Vimium] (https://vimium.github.io/)
+    * Disable Vimium on Gmail: In Chrome, click Chrome > Preferences > Extensions, then scroll to Vimium and click Options. Click Show Advanced Options at the bottom of the screen. Find the field titled 'Characters used for link hints' and remove the 'f' character to avoid accidentally hitting a link after you invoke Vimium.
 * [Sublime Text 3] (https://www.sublimetext.com/3)
   * Install [Package Control] (https://packagecontrol.io/installation) for Sublime
   * Use Package Control to install the following:
