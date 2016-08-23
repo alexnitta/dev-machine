@@ -41,3 +41,5 @@ PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
 export PATH
 
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
+
+source ~/.iterm2_shell_integration.`basename $SHELL`

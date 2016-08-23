@@ -15,7 +15,9 @@ How I like to set up my computer for software development
     4. babel
   * Set Sublime preferences by copying from this repo at `config/preferences-sublime-settings`, then in Sublime go to Preferences / Settings - User, paste text and save file
   * After you have installed Node (see below), create a build system in Sublime for Node. Copy from this repo at `config/node.sublime-build`, then in Sublime go to Tools > Build System > New Build System, delete the default code, and paste the text. Close the file, and when asked whether you want to save, click Save. Rename the file to `Node.sublime-build`.
-* [iTerm 2] (https://www.iterm2.com/) - Set preferences: Profiles > Default > Colors > Color Presets... Pastel (Dark Background)
+* [iTerm 2] (https://www.iterm2.com/)
+  * Set preferences: Profiles > Default > Colors > Color Presets... Pastel (Dark Background)
+  * Add [Shell Integration] (https://iterm2.com/documentation-shell-integration.html)
 * [XCode] (https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12)
 
 ##Command Line Utilities
