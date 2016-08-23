@@ -6,6 +6,8 @@ How I like to set up my computer for software development
   * [Vimium] (https://vimium.github.io/)
     * Disable Vimium on Gmail: In Chrome, click Chrome > Preferences > Extensions, then scroll to Vimium and click Options. Click Show Advanced Options at the bottom of the screen. Find the field titled 'Characters used for link hints' and remove the 'f' character to avoid accidentally hitting a link after you invoke Vimium. Click Save Options at the bottom of the screen.
   * [Postman] (https://www.getpostman.com/)
+  * [React DevTools] (https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+  * [Redux DevTools] (https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
 * [Sublime Text 3] (https://www.sublimetext.com/3)
   * Install [Package Control] (https://packagecontrol.io/installation) for Sublime
   * Use Package Control to install the following:
