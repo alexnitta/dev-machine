@@ -3,9 +3,9 @@ How I like to set up my computer for software development
 
 ##Mac OS Applications
 * [Chrome] (https://www.google.com/chrome/browser/desktop/)
-  * [Vimium] (https://vimium.github.io/)
+  * [Vimium] (https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
     * Disable Vimium on Gmail: In Chrome, click Chrome > Preferences > Extensions, then scroll to Vimium and click Options. Click Show Advanced Options at the bottom of the screen. Find the field titled 'Characters used for link hints' and remove the 'f' character to avoid accidentally hitting a link after you invoke Vimium. Click Save Options at the bottom of the screen.
-  * [Postman] (https://www.getpostman.com/)
+  * [Postman] (https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)
   * [React DevTools] (https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
   * [Redux DevTools] (https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
 * [Sublime Text 3] (https://www.sublimetext.com/3)
