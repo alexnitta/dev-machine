@@ -21,6 +21,7 @@ How I like to set up my computer for software development
   * Set preferences: Profiles > Default > Colors > Color Presets... Pastel (Dark Background)
   * Add [Shell Integration] (https://iterm2.com/documentation-shell-integration.html)
 * [XCode] (https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12)
+* [Cyberduck] (https://cyberduck.io/?l=en)
 
 ##Command Line Utilities
 * Git  
