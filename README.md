@@ -1,5 +1,5 @@
 # dev-machine
-How I like to set up my computer for software development
+How I like to set up my computer for software development in JavaScript and Python
 
 ##Mac OS Applications
 * [Chrome] (https://www.google.com/chrome/browser/desktop/)
@@ -13,8 +13,11 @@ How I like to set up my computer for software development
   * Use Package Control to install the following:
     1. Charcoal theme
     2. SublimeLinter
-    3. SublimeLinter-contrib-eslint 
+    3. SublimeLinter-contrib-eslint
     4. babel
+    5. GitGutter
+    6. Markdown Preview
+    7. Anaconda
   * Set Sublime preferences by copying from this repo at `config/preferences-sublime-settings`, then in Sublime go to Preferences / Settings - User, paste text and save file
   * After you have installed Node (see below), create a build system in Sublime for Node. Copy from this repo at `config/node.sublime-build`, then in Sublime go to Tools > Build System > New Build System, delete the default code, and paste the text. Close the file, and when asked whether you want to save, click Save. Rename the file to `Node.sublime-build`.
 * [iTerm 2] (https://www.iterm2.com/)
@@ -24,26 +27,26 @@ How I like to set up my computer for software development
 * [Cyberduck] (https://cyberduck.io/?l=en)
 
 ##Command Line Utilities
-* Git  
+* Git
   * Use the GUI to [install Git] (https://git-scm.com/download/mac)
   * Copy from this repo at `config/dot-gitconfig`. Open `~/.gitconfig` and paste the text. Replace `Your Name` and `your@email.com`, close and save the file.
-* Homebrew 
+* Homebrew
   * `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-* Node 
+* Node
   * `brew install node`
-* Python 
+* Python
   * `$ brew install python libjpeg`
   * `$ export PATH=/usr/local/bin:/usr/local/share/python:$PATH`
-* Ruby 
+* Ruby
   * `$ brew install ruby`
   * `$ gem install nokogiri premailer`
-* Less 
+* Less
   * `$ npm install less less-plugin-clean-css -g`
-* Tmux 
+* Tmux
   * `$ brew install tmux`
-* NVM 
+* NVM
   * `$ npm install -g nvm`
-* virtualenv 
+* virtualenv
   * `pip install virtualenv`
 
 ##Config Files
@@ -51,8 +54,8 @@ How I like to set up my computer for software development
 * Bash Profile
   * `$ cd ~` `$ touch .bash_profile`
   * Copy raw text from this repo at: `config/dot-bash_profile`
-  * `$ nano .bash_profile` 
-  * `Command-V` `Ctrl-x` `Enter` 
+  * `$ nano .bash_profile`
+  * `Command-V` `Ctrl-x` `Enter`
   * `$ source .bash_profile`
 
 * Set up `subl` command
