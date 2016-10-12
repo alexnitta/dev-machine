@@ -2,7 +2,8 @@
 How I like to set up my computer for software development in JavaScript and Python
 
 ##Mac OS Applications
-* [Chrome] (https://www.google.com/chrome/browser/desktop/) Use [Sign In to Chrome] (https://www.google.com/chrome/browser/signin.html) when you set up Chrome for the first time. Next time you need to set up a new machine, install Chrome and sign in, and your extensions and preferences will automatically sync up. 
+* [Chrome] (https://www.google.com/chrome/browser/desktop/) 
+  * Use [Sign In to Chrome] (https://www.google.com/chrome/browser/signin.html) when you set up Chrome for the first time. Next time you need to set up a new machine, install Chrome and sign in, and your extensions and preferences will automatically sync up. 
   * [Vimium] (https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
     * Disable Vimium on Gmail: In Chrome, click Chrome > Preferences > Extensions, then scroll to Vimium and click Options. Click Show Advanced Options at the bottom of the screen. Find the field titled 'Characters used for link hints' and remove the 'f' character to avoid accidentally hitting a link after you invoke Vimium. Click Save Options at the bottom of the screen.
   * [Postman] (https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)
