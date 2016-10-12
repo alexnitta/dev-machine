@@ -34,6 +34,8 @@ How I like to set up my computer for software development in JavaScript and Pyth
   * `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 * Node
   * `brew install node`
+* NVM
+  * `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash`
 * Python
   * `brew install python libjpeg`
   * `export PATH=/usr/local/bin:/usr/local/share/python:$PATH`
@@ -45,8 +47,6 @@ How I like to set up my computer for software development in JavaScript and Pyth
   * `npm install less less-plugin-clean-css -g`
 * Tmux
   * `brew install tmux`
-* NVM
-  * `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash`
 * virtualenv
   * `pip install virtualenv`
 
