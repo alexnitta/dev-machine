@@ -9,6 +9,7 @@ How I like to set up my computer for software development in JavaScript and Pyth
   * [Postman] (https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)
   * [React DevTools] (https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
   * [Redux DevTools] (https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
+  * [JSON View] (https://chrome.google.com/webstore/detail/jsonview/nckmconehaglkoocmmldmilnnpdagigh?hl=en-US)
 * [Sublime Text 3] (https://www.sublimetext.com/3)
   * Install [Package Control] (https://packagecontrol.io/installation) for Sublime
   * Use Package Control to install the following:
@@ -18,7 +19,7 @@ How I like to set up my computer for software development in JavaScript and Pyth
     4. babel
     5. GitGutter
     6. Markdown Preview
-    7. Anaconda
+    7. DocBlockr
   * Set Sublime preferences by copying from this repo at `config/preferences-sublime-settings`, then in Sublime go to Preferences / Settings - User, paste text and save file
   * After you have installed Node (see below), create a build system in Sublime for Node. Copy from this repo at `config/node.sublime-build`, then in Sublime go to Tools > Build System > New Build System, delete the default code, and paste the text. Close the file, and when asked whether you want to save, click Save. Rename the file to `Node.sublime-build`.
 * [iTerm 2] (https://www.iterm2.com/)
