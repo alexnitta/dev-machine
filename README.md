@@ -9,7 +9,7 @@ How I like to set up my computer for software development in JavaScript and Pyth
   * [Postman] (https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)
   * [React DevTools] (https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
   * [Redux DevTools] (https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
-  * [JSON View] (https://chrome.google.com/webstore/detail/jsonview/nckmconehaglkoocmmldmilnnpdagigh?hl=en-US)
+  * [JSON Formatter] (https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)
 * [Sublime Text 3] (https://www.sublimetext.com/3)
   * Install [Package Control] (https://packagecontrol.io/installation) for Sublime
   * Use Package Control to install the following:
