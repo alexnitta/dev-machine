@@ -74,3 +74,4 @@ How I like to set up my computer for software development in JavaScript and Pyth
   * `ssh-add ~/.ssh/id_rsa`
   * [Add SSH Key to your GitHub account] (https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
+* [Set up Keybase.io, GPG & Git to sign commits on GitHub] (https://github.com/alexnitta/keybase-gpg-github)
