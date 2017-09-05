@@ -27,6 +27,9 @@ How I like to set up my computer for software development in JavaScript and Pyth
 * [iTerm 2](https://www.iterm2.com/)
   * Set preferences: Profiles > Default > Colors > Color Presets... Pastel (Dark Background)
   * Add [Shell Integration](https://iterm2.com/documentation-shell-integration.html)
+* [p4Merge](https://www.perforce.com/downloads/visual-merge-tool)
+  * Follow instructions here: [Customizing Git: Git Configuration](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
+  * Note that you may need to `sudo chmod +x /usr/local/bin/extMerge` and `sudo chmod +x /usr/local/bin/extDiff`
 * [XCode](https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12)
 * [Cyberduck](https://cyberduck.io/?l=en)
 
