@@ -27,7 +27,9 @@ How I like to set up my computer for software development in JavaScript and Pyth
     * Open the Command Palette and type `prv`, then select `Extract Package` and select `Charcoal`
     * Browse to the Charcoal package by selecting Sublime Text > Preferences > Browse Packages...
     * Find the `Charcoal.tmTheme` file, and note its file path.
-  * Set Sublime preferences by copying from this repo at `config/preferences-sublime-settings`, then in Sublime go to Preferences / Settings - User, paste text and save file
+  * Set Sublime preferences by copying from this repo at `config/preferences-sublime-settings`, then in Sublime go to Preferences / Settings - User and paste the text. Ensure that this line:
+    ``` "color_scheme": "Packages/Charcoal/Charcoal.tmTheme",```
+    contains the file path you found in the previous step.
   * After you have installed Node (see below), create a build system in Sublime for Node. Copy from this repo at `config/node.sublime-build`, then in Sublime go to Tools > Build System > New Build System, delete the default code, and paste the text. Close the file, and when asked whether you want to save, click Save. Rename the file to `Node.sublime-build`.
 * [iTerm 2](https://www.iterm2.com/)
   * Set preferences: Profiles > Default > Colors > Color Presets... Pastel (Dark Background)
