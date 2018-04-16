@@ -2,7 +2,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "blink",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/SublimeLinter/Charcoal (SL).tmTheme",
+	"color_scheme": "Packages/Charcoal/Charcoal.tmTheme",
 	"draw_white_space": "none",
 	"ensure_newline_at_eof_on_save": true,
 	"font_size": 12,

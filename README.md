@@ -17,11 +17,16 @@ How I like to set up my computer for software development in JavaScript and Pyth
   * Use Package Control to install the following:
     1. Charcoal theme
     2. SublimeLinter
-    3. SublimeLinter-contrib-eslint
+    3. SublimeLinter-contrib-eslint_d
     4. babel
     5. GitGutter
     6. Markdown Preview
     7. DocBlockr
+    8. PackageResourceViewer
+  * Use `PackageResourceViewer` to extract the Charcoal theme.
+    * Open the Command Palette and type `prv`, then select `Extract Package` and select `Charcoal`
+    * Browse to the Charcoal package by selecting Sublime Text > Preferences > Browse Packages...
+    * Find the `Charcoal.tmTheme` file, and note its file path.
   * Set Sublime preferences by copying from this repo at `config/preferences-sublime-settings`, then in Sublime go to Preferences / Settings - User, paste text and save file
   * After you have installed Node (see below), create a build system in Sublime for Node. Copy from this repo at `config/node.sublime-build`, then in Sublime go to Tools > Build System > New Build System, delete the default code, and paste the text. Close the file, and when asked whether you want to save, click Save. Rename the file to `Node.sublime-build`.
 * [iTerm 2](https://www.iterm2.com/)
