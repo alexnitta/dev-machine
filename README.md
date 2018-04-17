@@ -22,7 +22,8 @@ How I like to set up my computer for software development in JavaScript and Pyth
     5. GitGutter
     6. Markdown Preview
     7. DocBlockr
-    8. PackageResourceViewer
+    8. CopyRelativePath
+    9. PackageResourceViewer
   * Use `PackageResourceViewer` to extract the Charcoal theme.
     * Open the Command Palette and type `prv`, then select `Extract Package` and select `Charcoal`
     * Browse to the Charcoal package by selecting Sublime Text > Preferences > Browse Packages...
