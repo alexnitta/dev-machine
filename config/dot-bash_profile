@@ -43,3 +43,6 @@ export PATH
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 
 source ~/.iterm2_shell_integration.`basename $SHELL`
+
+# Shell completion for pipenv
+eval "$(pipenv --completion)"
