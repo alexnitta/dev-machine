@@ -41,6 +41,7 @@ How I like to set up my computer for software development in JavaScript and Pyth
 * [XCode](https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12)
 * [Cyberduck](https://cyberduck.io/?l=en)
 
+
 ## Command Line Utilities
 * Git
   * Use the GUI to [install Git](https://git-scm.com/download/mac)
@@ -50,7 +51,8 @@ How I like to set up my computer for software development in JavaScript and Pyth
 * Node
   * `brew install node`
 * NVM
-  * `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash`
+  * See: [https://github.com/creationix/nvm](https://github.com/creationix/nvm)
+  * Once you've installed NVM and Sublime Text 3, make sure to set a default alias so that Sublime uses NVM when launching Node: `nvm alias default v<version_number>`. This will help avoid issues where Sublime can't find your linters or lint configs, even if you installed them globally.
 * Python
   * `brew install python libjpeg`
   * `export PATH=/usr/local/bin:/usr/local/share/python:$PATH`
