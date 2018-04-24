@@ -31,5 +31,7 @@
 	"trim_trailing_white_space_on_save": true,
 	"wide_caret": true,
 	"word_wrap": "false",
-	"wrap_width": 0
+	"wrap_width": 0,
+  	"folder_exclude_patterns": [".git"],
+  	"binary_file_pattenrs": ["node_modules/"]
 }
