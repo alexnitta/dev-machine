@@ -2,3 +2,10 @@
   "cmd": ["/usr/local/bin/node", "$file", "$file_base_name"],
   "selector": "source.js"
 }
+
+// If you see a message like:
+//      [Errno 2] No such file or directory: '/usr/local/bin/node'
+// and you are using NVM to manage your node version, you'll need to create a symlink to your
+// current version of Node. Here's an example command to create a symlink:
+//
+// sudo ln -s /Users/anitta/.nvm/versions/node/v6.13.1/bin/node /usr/local/bin/node
