@@ -31,6 +31,7 @@ How I like to set up my computer for software development in JavaScript and Pyth
   * Set Sublime preferences by copying from this repo at `config/preferences-sublime-settings`, then in Sublime go to Preferences / Settings - User and paste the text. Ensure that this line:
     ``` "color_scheme": "Packages/Charcoal/Charcoal.tmTheme",```
     contains the file path you found in the previous step.
+  * Set Sublime key binding for `super+shift+k` to be able to copy relative path by copying from this repo at `keybindings-sublime-settings`, then in Sublime go to Preferences / Key Bindings and paste the text. Note that `super` is the same as `command` for Mac or `window` on Windows.
   * After you have installed Node (see below), create a build system in Sublime for Node. Copy from this repo at `config/node.sublime-build`, then in Sublime go to Tools > Build System > New Build System, delete the default code, and paste the text. Close the file, and when asked whether you want to save, click Save. Rename the file to `Node.sublime-build`.
 * [iTerm 2](https://www.iterm2.com/)
   * Set preferences: Profiles > Default > Colors > Color Presets... Pastel (Dark Background)
