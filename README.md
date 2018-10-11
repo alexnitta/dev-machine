@@ -24,6 +24,7 @@ How I like to set up my computer for software development in JavaScript and Pyth
     7. DocBlockr
     8. CopyRelativePath
     9. PackageResourceViewer
+    10. Sublack
   * Use `PackageResourceViewer` to extract the Charcoal theme.
     * Open the Command Palette and type `prv`, then select `Extract Package` and select `Charcoal`
     * Browse to the Charcoal package by selecting Sublime Text > Preferences > Browse Packages...
@@ -67,6 +68,9 @@ How I like to set up my computer for software development in JavaScript and Pyth
   * `brew install tmux`
 * virtualenv
   * `pip install virtualenv`
+* black - for automatically formatting Python code, like prettier.js
+  * `pip install black` for the CLI
+  * `pip install black[d]` for the local black server
 * core-utils
   * `brew install coreutils` (includes gsplit for splitting files)
 
