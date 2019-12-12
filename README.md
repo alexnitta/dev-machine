@@ -12,28 +12,8 @@ How I like to set up my computer for software development in JavaScript and Pyth
   * [React DevTools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
   * [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
   * [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)
-* [Sublime Text 3](https://www.sublimetext.com/3)
-  * Install [Package Control](https://packagecontrol.io/installation) for Sublime
-  * Use Package Control to install the following:
-    1. Charcoal theme
-    2. SublimeLinter
-    3. SublimeLinter-contrib-eslint_d
-    4. babel
-    5. GitGutter
-    6. Markdown Preview
-    7. DocBlockr
-    8. CopyRelativePath
-    9. PackageResourceViewer
-    10. Sublack
-  * Use `PackageResourceViewer` to extract the Charcoal theme.
-    * Open the Command Palette and type `prv`, then select `Extract Package` and select `Charcoal`
-    * Browse to the Charcoal package by selecting Sublime Text > Preferences > Browse Packages...
-    * Find the `Charcoal.tmTheme` file, and note its file path.
-  * Set Sublime preferences by copying from this repo at `config/preferences-sublime-settings`, then in Sublime go to Preferences / Settings - User and paste the text. Ensure that this line:
-    ``` "color_scheme": "Packages/Charcoal/Charcoal.tmTheme",```
-    contains the file path you found in the previous step.
-  * Set Sublime key binding for `super+shift+k` to be able to copy relative path by copying from this repo at `keybindings-sublime-settings`, then in Sublime go to Preferences / Key Bindings and paste the text. Note that `super` is the same as `command` for Mac or `window` on Windows.
-  * After you have installed Node (see below), create a build system in Sublime for Node. Copy from this repo at `config/node.sublime-build`, then in Sublime go to Tools > Build System > New Build System, delete the default code, and paste the text. Close the file, and when asked whether you want to save, click Save. Rename the file to `Node.sublime-build`.
+* [Visual Studio Code](https://code.visualstudio.com/)
+  * Install [Setting Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) extension and sync all other settings from GitHub gist. In the Extensions marketplace, search for the `shan.code-settings-sync` identifier.
 * [iTerm 2](https://www.iterm2.com/)
   * Set preferences: Profiles > Default > Colors > Color Presets... Pastel (Dark Background)
   * Add [Shell Integration](https://iterm2.com/documentation-shell-integration.html)
@@ -82,9 +62,6 @@ How I like to set up my computer for software development in JavaScript and Pyth
   * `nano .bash_profile`
   * `Command-V` `Ctrl-x` `Enter`
   * `source .bash_profile`
-
-* Set up `subl` command
-  * `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
 
 * Set up SSH key for GitHub
   * `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"` (use a secure passphrase)
