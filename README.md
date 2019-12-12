@@ -63,10 +63,4 @@ How I like to set up my computer for software development in JavaScript and Pyth
   * `Command-V` `Ctrl-x` `Enter`
   * `source .bash_profile`
 
-* Set up SSH key for GitHub
-  * `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"` (use a secure passphrase)
-  * `eval "$(ssh-agent -s)"`
-  * `ssh-add ~/.ssh/id_rsa`
-  * [Add SSH Key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
-
 * [Set up Keybase.io, GPG & Git to sign commits on GitHub](https://github.com/alexnitta/keybase-gpg-github)
